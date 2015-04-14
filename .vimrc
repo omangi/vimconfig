@@ -78,3 +78,15 @@ set noswapfile
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " ctrlP plugin 
 set runtimepath^=~/.vim/bundle/ctrlp.vim
+
+"default search type: filename
+let g:ctrlp_by_filename = 1
+
+"Ignoring files and dirs in ctrlp.vim (use according to your need)
+let g:ctrlp_custom_ignore = {
+    \ 'dir':  '\v[\/](docs|tmp)$',
+    \ 'file': '\v\.(txt|png|gif|jpg|psd|bat|jar)$',
+    \ }
+
+let g:ctrlp_match_window = 'results:100'
+
