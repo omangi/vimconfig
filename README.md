@@ -1,0 +1,3 @@
+# vimconfig
+
+Use vim =)
