@@ -74,6 +74,7 @@ syntax enable
 
 " Highlight search results
 set hlsearch
+nnoremap <space> :noh<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Files, backups and undo
