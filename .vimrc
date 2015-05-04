@@ -1,5 +1,5 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => General Settings
+" => General Settings and SET's
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 "Pathogen plugin
@@ -32,11 +32,16 @@ set mouse=a
 "Always show current position
 set ruler
 
+"Search with insensitive
+set ic
+
 " Configure backspace so it acts as it should act (tmp)
 set backspace=eol,start,indent
 set whichwrap+=<,>,h,l
 
-"Mapping
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Mapping's
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 noremap <C-N> :NERDTreeToggle <CR>
 noremap <C-M> :NERDTreeFind <CR>
 noremap <F3> :tabnew <CR>
