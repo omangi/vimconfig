@@ -42,10 +42,15 @@ set whichwrap+=<,>,h,l
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Mapping's
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"Tab map's ...
+nmap <C-RIGHT> :tabnext<CR>
+nmap <C-LEFT> :tabprevious<CR>
+nmap <C-DOWN> :tabclose<CR>
+nmap <C-UP> :tabnew<CR>
+
+
 noremap <C-N> :NERDTreeToggle <CR>
 noremap <C-M> :NERDTreeFind <CR>
-noremap <F3> :tabnew <CR>
-noremap <F2> :tabclose <CR>
 
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
@@ -54,7 +59,7 @@ nnoremap <C-H> <C-W><C-H>
 
 set laststatus=2
 " Format the status line
-set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l
+"set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l
 
 " Turn on the WiLd menu
 set wildmenu
