@@ -35,10 +35,6 @@ set ruler
 "Search with insensitive
 set ic
 
-" Configure backspace so it acts as it should act (tmp)
-set backspace=eol,start,indent
-set whichwrap+=<,>,h,l
-
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Mapping's
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
