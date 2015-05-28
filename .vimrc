@@ -123,6 +123,9 @@ syntax enable
 set hlsearch
 nnoremap <space> :noh<CR>
 
+"Enabling 256 colors
+set t_Co=256
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Files, backups and undo
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -148,8 +151,4 @@ let g:ctrlp_custom_ignore = {
 
 let g:ctrlp_match_window = 'results:100'
 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Files, backups and undo
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Turn backup off, since most stuff is in SVN, git et.c anyway...
-set noswapfile
+
