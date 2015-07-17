@@ -42,10 +42,7 @@ set nowrap
 " => Mapping's
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "Tab map's ...
-nmap <C-RIGHT> :tabnext<CR>
-nmap <C-LEFT> :tabprevious<CR>
-nmap <C-DOWN> :tabclose<CR>
-nmap <C-UP> :tabnew<CR>
+noremap <F3> :tabnew<CR>
 
 
 noremap <C-N> :NERDTreeToggle <CR>
@@ -59,7 +56,7 @@ nnoremap <C-H> <C-W><C-H>
 map <C-L> \c<space>
 
 set laststatus=2
-" Format the status line
+"Format the status line
 "set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l
 
 " Turn on the WiLd menu
@@ -117,6 +114,8 @@ function! VisualSelection(direction, extra_filter) range
     let @/ = l:pattern
     let @" = l:saved_reg
 endfunction
+
+"ACK too fast
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and Fonts
