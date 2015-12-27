@@ -38,12 +38,13 @@ set ic
 "Don't break line
 set nowrap
 
+set modifiable
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Mapping's
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "Tab map's ...
 noremap <F3> :tabnew<CR>
-
 
 noremap <C-N> :NERDTreeToggle <CR>
 noremap <C-M> :NERDTreeFind <CR>
@@ -52,6 +53,8 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
+
+noremap <C-z> :copen<CR>
 
 map <C-L> \c<space>
 
