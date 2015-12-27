@@ -125,7 +125,7 @@ endfunction
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Enable syntax highlighting
 syntax enable 
-colorscheme monokai
+colorscheme behelit
 
 " Highlight search results
 set hlsearch
