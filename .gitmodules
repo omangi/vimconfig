@@ -22,3 +22,6 @@
 [submodule ".vim/bundle/vim-twig"]
 	path = .vim/bundle/vim-twig
 	url = https://github.com/lunaru/vim-twig.git
+[submodule ".vim/bundle/dracula-theme"]
+	path = .vim/bundle/dracula-theme
+	url = git@github.com:zenorocha/dracula-theme.git
